@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <%- include("navbar") %>
+    <form action="/blog/singleBlog" method="post" id="form">
+        <div class="container">
+            <div id="blog">
+                <img src="<%= singleBlog.image %>" alt="" id="img">
+                <h3 id="title"><%= singleBlog.title %></h3>
+                <span id="category"><%= singleBlog.category %></span>
+                <p id="content"><%= singleBlog.content %></p>
+                <button id="like">Like</button>
+                <span id="count">0</span>
+                <br>
+                <form action="/blog/comment/:id" id="comment" method="post">
+                    <input type="text" name="text" id="adcomment" placeholder="Add a Comment">
+                    <input type="submit" id="sub">
+                </form>
+                <div id="comment"></div>
+            </div>
+        </div>
+    </form>
+</body>
+<script src="/js/singlepage.js"></script>
+</html>

@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1140px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.align-item-center{
+    align-items: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.logo{
+    font-style: italic;
+    word-spacing: 10px;
+    font-size: 30px;
+}
+nav ul li{
+    padding: 0 30px;
+}
+nav ul li a{
+    color: black;
+    font-size: 22px;
+}
+header{
+    padding: 20px;
+    background-color: rgb(163, 162, 162);
+}
+#parent-box{
+    display: flex;
+    flex-wrap: wrap;
+}
+.list{
+    width: 31%;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    align-items: center;
+    transition: all 0.5s;
+}
+.list:hover{
+    scale: 1.03;
+}
+.list p{
+    font-size: 25px;
+    padding: 20px;
+    text-align: center;
+}
+
+.signup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.signup form{
+    box-shadow: 0px 0px 15px rgb(0, 0, 0,0.2);
+    padding: 50px;
+    margin: 100px;
+    border-radius: 10px;
+    width: 400px;
+}
+.signup input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+.signup label{
+    font-size: 25px;
+}
+.signup select{
+    width: 100%;
+    font-size: 18px;
+    padding: 5px;
+}
+.signup button{
+    margin: 5px 100px;
+    background-color: rgb(73, 73, 243);
+    padding: 10px 20px;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+}
+#blog{
+    width: 700px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    padding: 50px;
+    margin: 50px auto;
+    border-radius: 20px;
+}
+#blog img{
+    width: 600px;
+}
+#blog h3{
+    font-size: 30px;
+    padding: 5px 0;
+}
+#blog #category{
+    font-size: 20px;
+    padding: 10px 0;
+}
+#blog p{
+    font-size: 18px;
+    padding: 10px 0;
+}
+#blog #like{
+    font-size: 20px;
+    padding: 5px 10px;
+}
+#blog span{
+    font-size: 28px;
+    padding-left: 10px;
+}
+#blog input{
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+#blog #adcomment{
+    width: 80%;
+}
+#blog #sub{
+    width: 19%;
+}
+
+#blogForm{
+    width: 500px;
+    margin: 50px auto;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    padding: 50px;
+    border-radius: 10px;
+}
+#blogForm input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+#blogForm label{
+    font-size: 25px;
+}
+#blogForm button{
+    margin: 5px 100px;
+    background-color: rgb(73, 73, 243);
+    padding: 10px 20px;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+}
